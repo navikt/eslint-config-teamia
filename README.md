@@ -14,14 +14,13 @@ eller
 
 `npm install @navikt/eslint-config-teamia --save-dev`
 
-Kjør kommandoen lint (npm run lint/yarn lint etc.) i prosjektet.
-Legg til eslint i package.json:
+### Legg til eslint i package.json:
 
 ```json
 "eslintConfig": {
     "extends": [
         "@navikt/eslint-config-teamia"
-    ],
+    ]
 }
 ```
 
@@ -29,15 +28,31 @@ Evt. legg inn extends i eksisterende eslintconfig.
 
 ## Bruk
 
-Legg til script for å kjøre eslint i package.json:
+### Legg til script for å kjøre eslint i package.json (endre "src" om du ønsker å linte andre steder):
 
 ```json
 "scripts": {
-    "lint": "eslint",
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
+}
+```
+
+### Om du bruker next:
+
+```json
+"scripts": {
+    "lint": "next lint",
 }
 ```
 
 Evt. btuk eksisterende oppsett for å kjøre linter.
+
+Kjør kommandoen lint (npm run lint/yarn lint etc.) i prosjektet.
+
+# Troubleshooting
+
+Har du eslint som dependency i prosjektet ditt? I såfall prøv å fjerne det.
+
+Du kan også prøve å fjerne dependencies på andre eslint-plugins og -configs du ikke bruker.
 
 # Henvendelser
 
