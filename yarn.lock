@@ -466,8 +466,13 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@navikt/eslint-config-teamia-a11y@>= 1":
-  version "1.0.0"
+"@navikt/eslint-config-teamia-a11y@>= 1.0.1":
+  version "1.0.1"
+  resolved "https://npm.pkg.github.com/download/@navikt/eslint-config-teamia-a11y/1.0.1/2e74e9095b047297e65278a9e436a56eccef2901"
+  integrity sha512-kNogrgO8xQpZBi7jy2sX4WWf0MRY4MYgXeHAFcMj3Z10T7BnGkUILSR8eMuMXRJv78DjJUTQFVcex4b8eyZCrg==
+  dependencies:
+    eslint ">= 8"
+    eslint-plugin-jsx-a11y ">= 6.7"
 
 "@next/env@13.4.7":
   version "13.4.7"
