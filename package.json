@@ -23,7 +23,7 @@
     "url": "https://github.com/navikt/eslint-config-teamia/issues"
   },
   "homepage": "https://github.com/navikt/eslint-config-teamia#readme",
-  "peerDependencies": {
+  "devDependencies": {
     "eslint": ">= 8",
     "@navikt/eslint-config-teamia-a11y": ">= 1",
     "eslint-config-next": ">= 13.1",
