@@ -50,7 +50,27 @@ Kjør kommandoen lint (npm run lint/yarn lint etc.) i prosjektet.
 
 # Troubleshooting
 
+Om du opplever problemer som:
+
+```
+error  Definition for rule 'jsx-a11y/anchor-ambiguous-text' was not found  jsx-a11y/anchor-ambiguous-text
+```
+
+Så kan det være ettersom et annet bibliotek har det som dependency, og du derfor har feil versjon inne i prosjektet. Du kan prøve å legge inn dependencyen det gjelder i resolutions i package.json:
+
+```json
+"resolutions": {
+    "eslint-plugin-jsx-a11y": ">= 6.7"
+},
+```
+
+Du kan finne riktig versjon som den skal resolve til i package.json i dette prosjektet.
+
+---
+
 Har du eslint som dependency i prosjektet ditt? I såfall prøv å fjerne det.
+
+---
 
 Du kan også prøve å fjerne dependencies på andre eslint-plugins og -configs du ikke bruker.
 
