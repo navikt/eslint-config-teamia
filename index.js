@@ -22,5 +22,5 @@ module.exports = {
     },
   ],
   settings: {},
-  ignorePatterns: ["*.module.css"],
+  ignorePatterns: ["*.module.css", "*.{config,setup}.{ts,js}"],
 };
