@@ -603,14 +603,6 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@navikt/eslint-config-teamia-a11y@>= 1.0.2":
-  version "1.0.2"
-  resolved "https://npm.pkg.github.com/download/@navikt/eslint-config-teamia-a11y/1.0.2/56d4e6d15ca0e1ea3cc2d4a6ca33a6936f3eac10"
-  integrity sha512-B6m3DX6DVZTMG3GJyjxj+AOscEI9H4yqdka6lYIrYkcBxn1+seC49/Sh7kIQS5igUtLWl02IWMwLkVUbko4J3Q==
-  dependencies:
-    eslint ">= 8"
-    eslint-plugin-jsx-a11y ">= 6.7"
-
 "@next/env@13.5.4":
   version "13.5.4"
   resolved "https://registry.npmjs.org/@next/env/-/env-13.5.4.tgz"
