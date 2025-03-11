@@ -1,3 +1,6 @@
+# IKKE BRUK
+Dette repoet blir ikke lenger oppdatert. Slutt å bruke configen dersom du fremdeles gjør det.
+
 # eslint-config-teamia
 
 Standard config for eslint som vi ønsker å bruke i alle prosjekter.
